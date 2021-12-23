@@ -12,7 +12,7 @@ if not game:IsLoaded() then
 	notLoaded:Destroy()
 end
 
-ver = '5.4'
+ver = '5.4.2'
 
 Players = game:GetService("Players")
 
@@ -202,7 +202,7 @@ scroll = {}
 Holder.Name = randomString()
 Holder.Parent = PARENT
 Holder.Active = true
-Holder.BackgroundColor3 = Color3.fromRGB(46, 46, 47)
+Holder.BackgroundColor3 = Color3.fromRGB(120,81,60)
 Holder.BorderSizePixel = 0
 Holder.Position = UDim2.new(1, -250, 1, -220)
 Holder.Size = UDim2.new(0, 250, 0, 220)
@@ -217,7 +217,7 @@ Title.BorderSizePixel = 0
 Title.Size = UDim2.new(0, 250, 0, 20)
 Title.Font = Enum.Font.SourceSans
 Title.TextSize = 18
-Title.Text = "👨🏿 Nigger Field FE v"..ver.." 👨🏿"
+Title.Text = "???? Nigger Field FE v"..ver.." ????"
 Title.TextColor3 = Color3.new(1, 1, 1)
 Title.ZIndex = 10
 table.insert(shade1,Title)
@@ -729,7 +729,7 @@ table.insert(shade1,background_2)
 Dark_4.Name = "Dark"
 Dark_4.Parent = background_2
 Dark_4.Active = true
-Dark_4.BackgroundColor3 = Color3.fromRGB(46, 46, 47)
+Dark_4.BackgroundColor3 = Color3.fromRGB(120, 81, 60)
 Dark_4.BorderSizePixel = 0
 Dark_4.Position = UDim2.new(0, 135, 0, 0)
 Dark_4.Size = UDim2.new(0, 2, 0, 185)
