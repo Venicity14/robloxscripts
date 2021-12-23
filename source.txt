@@ -310,7 +310,7 @@ table.insert(scroll,SettingsHolder)
 
 Prefix.Name = "Prefix"
 Prefix.Parent = SettingsHolder
-Prefix.BackgroundColor3 = Color3.fromRGB(46, 46, 47)
+Prefix.BackgroundColor3 = Color3.fromRGB(120,81,60)
 Prefix.BorderSizePixel = 0
 Prefix.BackgroundTransparency = 1
 Prefix.Position = UDim2.new(0, 5, 0, 5)
@@ -340,7 +340,7 @@ table.insert(text2,PrefixBox)
 
 function makeSettingsButton(name,iconID,off)
 	local button = Instance.new("TextButton")
-	button.BackgroundColor3 = Color3.fromRGB(46, 46, 47)
+	button.BackgroundColor3 = Color3.fromRGB(120,81,60)
 	button.BorderSizePixel = 0
 	button.Position = UDim2.new(0,0,0,0)
 	button.Size = UDim2.new(1,0,0,25)
@@ -396,7 +396,7 @@ Aliases.Parent = SettingsHolder
 
 StayOpen.Name = "StayOpen"
 StayOpen.Parent = SettingsHolder
-StayOpen.BackgroundColor3 = Color3.fromRGB(46, 46, 47)
+StayOpen.BackgroundColor3 = Color3.fromRGB(120,81,60)
 StayOpen.BorderSizePixel = 0
 StayOpen.BackgroundTransparency = 1
 StayOpen.Position = UDim2.new(0, 5, 0, 30)
@@ -475,7 +475,7 @@ table.insert(shade1,Notification)
 
 Title_2.Name = "Title"
 Title_2.Parent = Notification
-Title_2.BackgroundColor3 = Color3.fromRGB(46, 46, 47)
+Title_2.BackgroundColor3 = Color3.fromRGB(120,81,60)
 Title_2.BorderSizePixel = 0
 Title_2.Size = UDim2.new(0, 250, 0, 20)
 Title_2.Font = Enum.Font.SourceSans
@@ -544,7 +544,7 @@ table.insert(shade1,Tooltip)
 
 Title_3.Name = "Title"
 Title_3.Parent = Tooltip
-Title_3.BackgroundColor3 = Color3.fromRGB(46, 46, 47)
+Title_3.BackgroundColor3 = Color3.fromRGB(120,81,60)
 Title_3.BackgroundTransparency = 0.1
 Title_3.BorderSizePixel = 0
 Title_3.Size = UDim2.new(0, 200, 0, 20)
@@ -615,7 +615,7 @@ table.insert(shade1,KeybindsFrame)
 
 Close.Name = "Close"
 Close.Parent = KeybindsFrame
-Close.BackgroundColor3 = Color3.fromRGB(46, 46, 47)
+Close.BackgroundColor3 = Color3.fromRGB(120,81,60)
 Close.BorderSizePixel = 0
 Close.Position = UDim2.new(0, 205, 0, 150)
 Close.Size = UDim2.new(0, 40, 0, 20)
@@ -629,7 +629,7 @@ table.insert(text1,Close)
 
 Add.Name = "Add"
 Add.Parent = KeybindsFrame
-Add.BackgroundColor3 = Color3.fromRGB(46, 46, 47)
+Add.BackgroundColor3 = Color3.fromRGB(120,81,60)
 Add.BorderSizePixel = 0
 Add.Position = UDim2.new(0, 5, 0, 150)
 Add.Size = UDim2.new(0, 40, 0, 20)
@@ -643,7 +643,7 @@ table.insert(text1,Add)
 
 Delete.Name = "Delete"
 Delete.Parent = KeybindsFrame
-Delete.BackgroundColor3 = Color3.fromRGB(46, 46, 47)
+Delete.BackgroundColor3 = Color3.fromRGB(120,81,60)
 Delete.BorderSizePixel = 0
 Delete.Position = UDim2.new(0, 50, 0, 150)
 Delete.Size = UDim2.new(0, 40, 0, 20)
@@ -672,7 +672,7 @@ Holder_2.ZIndex = 10
 
 Example_2.Name = "Example"
 Example_2.Parent = KeybindsFrame
-Example_2.BackgroundColor3 = Color3.fromRGB(46, 46, 47)
+Example_2.BackgroundColor3 = Color3.fromRGB(120,81,60)
 Example_2.BorderSizePixel = 0
 Example_2.Size = UDim2.new(0, 10, 0, 20)
 Example_2.Visible = false
@@ -681,7 +681,7 @@ table.insert(shade2,Example_2)
 
 Text_3.Name = "Text"
 Text_3.Parent = Example_2
-Text_3.BackgroundColor3 = Color3.fromRGB(46, 46, 47)
+Text_3.BackgroundColor3 = Color3.fromRGB(120,81,60)
 Text_3.BorderSizePixel = 0
 Text_3.Position = UDim2.new(0, 10, 0, 0)
 Text_3.Size = UDim2.new(0, 240, 0, 20)
@@ -753,7 +753,7 @@ table.insert(text1,Directions)
 
 BindTo.Name = "BindTo"
 BindTo.Parent = background_2
-BindTo.BackgroundColor3 = Color3.fromRGB(46, 46, 47)
+BindTo.BackgroundColor3 = Color3.fromRGB(120,81,60)
 BindTo.BorderSizePixel = 0
 BindTo.Position = UDim2.new(0, 10, 0, 95)
 BindTo.Size = UDim2.new(0, 115, 0, 50)
@@ -782,7 +782,7 @@ table.insert(text1,BindTrigger)
 BindTriggerSelect = Instance.new("TextButton")
 BindTriggerSelect.Name = "BindTo"
 BindTriggerSelect.Parent = background_2
-BindTriggerSelect.BackgroundColor3 = Color3.fromRGB(46, 46, 47)
+BindTriggerSelect.BackgroundColor3 = Color3.fromRGB(120,81,60)
 BindTriggerSelect.BorderSizePixel = 0
 BindTriggerSelect.Position = UDim2.new(0, 60, 0, 155)
 BindTriggerSelect.Size = UDim2.new(0, 65, 0, 20)
@@ -796,7 +796,7 @@ table.insert(text1,BindTriggerSelect)
 
 Add_2.Name = "Add"
 Add_2.Parent = background_2
-Add_2.BackgroundColor3 = Color3.fromRGB(46, 46, 47)
+Add_2.BackgroundColor3 = Color3.fromRGB(120,81,60)
 Add_2.BorderSizePixel = 0
 Add_2.Position = UDim2.new(0, 310, 0, 20)
 Add_2.Size = UDim2.new(0, 40, 0, 20)
@@ -810,7 +810,7 @@ table.insert(text1,Add_2)
 
 Cmdbar_2.Name = "Cmdbar"
 Cmdbar_2.Parent = background_2
-Cmdbar_2.BackgroundColor3 = Color3.fromRGB(46, 46, 47)
+Cmdbar_2.BackgroundColor3 = Color3.fromRGB(120,81,60)
 Cmdbar_2.BorderSizePixel = 0
 Cmdbar_2.Position = UDim2.new(0, 150, 0, 20)
 Cmdbar_2.Size = UDim2.new(0, 150, 0, 20)
@@ -840,7 +840,7 @@ table.insert(scroll,Toggles)
 
 Fly.Name = "Fly"
 Fly.Parent = Toggles
-Fly.BackgroundColor3 = Color3.fromRGB(46, 46, 47)
+Fly.BackgroundColor3 = Color3.fromRGB(120,81,60)
 Fly.BorderSizePixel = 0
 Fly.Size = UDim2.new(0, 192, 0, 20)
 Fly.Font = Enum.Font.SourceSans
@@ -868,7 +868,7 @@ table.insert(text2,Select_3)
 
 Noclip.Name = "Noclip"
 Noclip.Parent = Toggles
-Noclip.BackgroundColor3 = Color3.fromRGB(46, 46, 47)
+Noclip.BackgroundColor3 = Color3.fromRGB(120,81,60)
 Noclip.BorderSizePixel = 0
 Noclip.Position = UDim2.new(0, 0, 0, 25)
 Noclip.Size = UDim2.new(0, 192, 0, 20)
@@ -897,7 +897,7 @@ table.insert(text2,Select_4)
 
 Float.Name = "Float"
 Float.Parent = Toggles
-Float.BackgroundColor3 = Color3.fromRGB(46, 46, 47)
+Float.BackgroundColor3 = Color3.fromRGB(120,81,60)
 Float.BorderSizePixel = 0
 Float.Position = UDim2.new(0, 0, 0, 50)
 Float.Size = UDim2.new(0, 192, 0, 20)
@@ -926,7 +926,7 @@ table.insert(text2,Select_5)
 
 ClickTP.Name = "Click TP"
 ClickTP.Parent = Toggles
-ClickTP.BackgroundColor3 = Color3.fromRGB(46, 46, 47)
+ClickTP.BackgroundColor3 = Color3.fromRGB(120,81,60)
 ClickTP.BorderSizePixel = 0
 ClickTP.Position = UDim2.new(0, 0, 0, 75)
 ClickTP.Size = UDim2.new(0, 192, 0, 20)
@@ -955,7 +955,7 @@ table.insert(text2,Select_6)
 
 ClickDelete.Name = "Click Delete"
 ClickDelete.Parent = Toggles
-ClickDelete.BackgroundColor3 = Color3.fromRGB(46, 46, 47)
+ClickDelete.BackgroundColor3 = Color3.fromRGB(120,81,60)
 ClickDelete.BorderSizePixel = 0
 ClickDelete.Position = UDim2.new(0, 0, 0, 100)
 ClickDelete.Size = UDim2.new(0, 192, 0, 20)
@@ -984,7 +984,7 @@ table.insert(text2,Select_13)
 
 Xray.Name = "Xray"
 Xray.Parent = Toggles
-Xray.BackgroundColor3 = Color3.fromRGB(46, 46, 47)
+Xray.BackgroundColor3 = Color3.fromRGB(120,81,60)
 Xray.BorderSizePixel = 0
 Xray.Position = UDim2.new(0, 0, 0, 125)
 Xray.Size = UDim2.new(0, 192, 0, 20)
@@ -1013,7 +1013,7 @@ table.insert(text2,Select_10)
 
 Swim.Name = "Swim"
 Swim.Parent = Toggles
-Swim.BackgroundColor3 = Color3.fromRGB(46, 46, 47)
+Swim.BackgroundColor3 = Color3.fromRGB(120,81,60)
 Swim.BorderSizePixel = 0
 Swim.Position = UDim2.new(0, 0, 0, 150)
 Swim.Size = UDim2.new(0, 192, 0, 20)
@@ -1042,7 +1042,7 @@ table.insert(text2,Select_11)
 
 Fling.Name = "Fling"
 Fling.Parent = Toggles
-Fling.BackgroundColor3 = Color3.fromRGB(46, 46, 47)
+Fling.BackgroundColor3 = Color3.fromRGB(120,81,60)
 Fling.BorderSizePixel = 0
 Fling.Position = UDim2.new(0, 0, 0, 175)
 Fling.Size = UDim2.new(0, 192, 0, 20)
@@ -1071,7 +1071,7 @@ table.insert(text2,Select_12)
 
 Invisible.Name = "Invisible"
 Invisible.Parent = Toggles
-Invisible.BackgroundColor3 = Color3.fromRGB(46, 46, 47)
+Invisible.BackgroundColor3 = Color3.fromRGB(120,81,60)
 Invisible.BorderSizePixel = 0
 Invisible.Position = UDim2.new(0, 0, 0, 200)
 Invisible.Size = UDim2.new(0, 192, 0, 20)
@@ -1100,7 +1100,7 @@ table.insert(text2,Select_14)
 
 Vehiclefly.Name = "VehicleFly"
 Vehiclefly.Parent = Toggles
-Vehiclefly.BackgroundColor3 = Color3.fromRGB(46, 46, 47)
+Vehiclefly.BackgroundColor3 = Color3.fromRGB(120,81,60)
 Vehiclefly.BorderSizePixel = 0
 Vehiclefly.Position = UDim2.new(0, 0, 0, 225)
 Vehiclefly.Size = UDim2.new(0, 192, 0, 20)
@@ -1129,7 +1129,7 @@ table.insert(text2,Select_15)
 
 VehicleNoclip.Name = "VehicleNoclip"
 VehicleNoclip.Parent = Toggles
-VehicleNoclip.BackgroundColor3 = Color3.fromRGB(46, 46, 47)
+VehicleNoclip.BackgroundColor3 = Color3.fromRGB(120,81,60)
 VehicleNoclip.BorderSizePixel = 0
 VehicleNoclip.Position = UDim2.new(0, 0, 0, 250)
 VehicleNoclip.Size = UDim2.new(0, 192, 0, 20)
@@ -1158,7 +1158,7 @@ table.insert(text2,Select_16)
 
 shadow_2.Name = "shadow"
 shadow_2.Parent = KeybindEditor
-shadow_2.BackgroundColor3 = Color3.fromRGB(46, 46, 47)
+shadow_2.BackgroundColor3 = Color3.fromRGB(120,81,60)
 shadow_2.BorderSizePixel = 0
 shadow_2.Size = UDim2.new(0, 360, 0, 20)
 shadow_2.ZIndex = 10
@@ -1204,7 +1204,7 @@ table.insert(shade1,PositionsFrame)
 
 Close_3.Name = "Close"
 Close_3.Parent = PositionsFrame
-Close_3.BackgroundColor3 = Color3.fromRGB(46, 46, 47)
+Close_3.BackgroundColor3 = Color3.fromRGB(120,81,60)
 Close_3.BorderSizePixel = 0
 Close_3.Position = UDim2.new(0, 205, 0, 150)
 Close_3.Size = UDim2.new(0, 40, 0, 20)
@@ -1218,7 +1218,7 @@ table.insert(text1,Close_3)
 
 Delete_5.Name = "Delete"
 Delete_5.Parent = PositionsFrame
-Delete_5.BackgroundColor3 = Color3.fromRGB(46, 46, 47)
+Delete_5.BackgroundColor3 = Color3.fromRGB(120,81,60)
 Delete_5.BorderSizePixel = 0
 Delete_5.Position = UDim2.new(0, 50, 0, 150)
 Delete_5.Size = UDim2.new(0, 40, 0, 20)
@@ -1232,7 +1232,7 @@ table.insert(text1,Delete_5)
 
 Part.Name = "PartGoto"
 Part.Parent = PositionsFrame
-Part.BackgroundColor3 = Color3.fromRGB(46, 46, 47)
+Part.BackgroundColor3 = Color3.fromRGB(120,81,60)
 Part.BorderSizePixel = 0
 Part.Position = UDim2.new(0, 5, 0, 150)
 Part.Size = UDim2.new(0, 40, 0, 20)
@@ -1262,7 +1262,7 @@ Holder_4.ZIndex = 10
 
 Example_4.Name = "Example"
 Example_4.Parent = PositionsFrame
-Example_4.BackgroundColor3 = Color3.fromRGB(46, 46, 47)
+Example_4.BackgroundColor3 = Color3.fromRGB(120,81,60)
 Example_4.BorderSizePixel = 0
 Example_4.Size = UDim2.new(0, 10, 0, 20)
 Example_4.Visible = false
@@ -1272,7 +1272,7 @@ table.insert(shade2,Example_4)
 
 Text_5.Name = "Text"
 Text_5.Parent = Example_4
-Text_5.BackgroundColor3 = Color3.fromRGB(46, 46, 47)
+Text_5.BackgroundColor3 = Color3.fromRGB(120,81,60)
 Text_5.BorderSizePixel = 0
 Text_5.Position = UDim2.new(0, 10, 0, 0)
 Text_5.Size = UDim2.new(0, 240, 0, 20)
@@ -1325,7 +1325,7 @@ table.insert(shade1,AliasesFrame)
 
 Close_2.Name = "Close"
 Close_2.Parent = AliasesFrame
-Close_2.BackgroundColor3 = Color3.fromRGB(46, 46, 47)
+Close_2.BackgroundColor3 = Color3.fromRGB(120,81,60)
 Close_2.BorderSizePixel = 0
 Close_2.Position = UDim2.new(0, 205, 0, 150)
 Close_2.Size = UDim2.new(0, 40, 0, 20)
@@ -1339,7 +1339,7 @@ table.insert(text1,Close_2)
 
 Delete_3.Name = "Delete"
 Delete_3.Parent = AliasesFrame
-Delete_3.BackgroundColor3 = Color3.fromRGB(46, 46, 47)
+Delete_3.BackgroundColor3 = Color3.fromRGB(120,81,60)
 Delete_3.BorderSizePixel = 0
 Delete_3.Position = UDim2.new(0, 5, 0, 150)
 Delete_3.Size = UDim2.new(0, 40, 0, 20)
@@ -1368,7 +1368,7 @@ Holder_3.ZIndex = 10
 
 Example_3.Name = "Example"
 Example_3.Parent = AliasesFrame
-Example_3.BackgroundColor3 = Color3.fromRGB(46, 46, 47)
+Example_3.BackgroundColor3 = Color3.fromRGB(120,81,60)
 Example_3.BorderSizePixel = 0
 Example_3.Size = UDim2.new(0, 10, 0, 20)
 Example_3.Visible = false
@@ -1377,7 +1377,7 @@ table.insert(shade2,Example_3)
 
 Text_4.Name = "Text"
 Text_4.Parent = Example_3
-Text_4.BackgroundColor3 = Color3.fromRGB(46, 46, 47)
+Text_4.BackgroundColor3 = Color3.fromRGB(120,81,60)
 Text_4.BorderSizePixel = 0
 Text_4.Position = UDim2.new(0, 10, 0, 0)
 Text_4.Size = UDim2.new(0, 240, 0, 20)
@@ -1416,7 +1416,7 @@ table.insert(shade1,PluginsFrame)
 
 Close_4.Name = "Close"
 Close_4.Parent = PluginsFrame
-Close_4.BackgroundColor3 = Color3.fromRGB(46, 46, 47)
+Close_4.BackgroundColor3 = Color3.fromRGB(120,81,60)
 Close_4.BorderSizePixel = 0
 Close_4.Position = UDim2.new(0, 205, 0, 150)
 Close_4.Size = UDim2.new(0, 40, 0, 20)
@@ -1430,7 +1430,7 @@ table.insert(text1,Close_4)
 
 Add_3.Name = "Add"
 Add_3.Parent = PluginsFrame
-Add_3.BackgroundColor3 = Color3.fromRGB(46, 46, 47)
+Add_3.BackgroundColor3 = Color3.fromRGB(120,81,60)
 Add_3.BorderSizePixel = 0
 Add_3.Position = UDim2.new(0, 5, 0, 150)
 Add_3.Size = UDim2.new(0, 40, 0, 20)
@@ -1460,7 +1460,7 @@ Holder_5.ZIndex = 10
 
 Example_5.Name = "Example"
 Example_5.Parent = PluginsFrame
-Example_5.BackgroundColor3 = Color3.fromRGB(46, 46, 47)
+Example_5.BackgroundColor3 = Color3.fromRGB(120,81,60)
 Example_5.BorderSizePixel = 0
 Example_5.Size = UDim2.new(0, 10, 0, 20)
 Example_5.Visible = false
@@ -1469,7 +1469,7 @@ table.insert(shade2,Example_5)
 
 Text_6.Name = "Text"
 Text_6.Parent = Example_5
-Text_6.BackgroundColor3 = Color3.fromRGB(46, 46, 47)
+Text_6.BackgroundColor3 = Color3.fromRGB(120,81,60)
 Text_6.BorderSizePixel = 0
 Text_6.Position = UDim2.new(0, 10, 0, 0)
 Text_6.Size = UDim2.new(0, 240, 0, 20)
@@ -1518,7 +1518,7 @@ table.insert(shade1,background_3)
 Dark_9.Name = "Dark"
 Dark_9.Parent = background_3
 Dark_9.Active = true
-Dark_9.BackgroundColor3 = Color3.fromRGB(46, 46, 47)
+Dark_9.BackgroundColor3 = Color3.fromRGB(120,81,60)
 Dark_9.BorderSizePixel = 0
 Dark_9.Position = UDim2.new(0, 222, 0, 0)
 Dark_9.Size = UDim2.new(0, 2, 0, 160)
@@ -1535,7 +1535,7 @@ Img.ZIndex = 10
 
 AddPlugin.Name = "AddPlugin"
 AddPlugin.Parent = background_3
-AddPlugin.BackgroundColor3 = Color3.fromRGB(46, 46, 47)
+AddPlugin.BackgroundColor3 = Color3.fromRGB(120,81,60)
 AddPlugin.BorderSizePixel = 0
 AddPlugin.Position = UDim2.new(0, 235, 0, 100)
 AddPlugin.Size = UDim2.new(0, 115, 0, 50)
@@ -1549,7 +1549,7 @@ table.insert(text1,AddPlugin)
 
 FileName.Name = "FileName"
 FileName.Parent = background_3
-FileName.BackgroundColor3 = Color3.fromRGB(46, 46, 47)
+FileName.BackgroundColor3 = Color3.fromRGB(120,81,60)
 FileName.BorderSizePixel = 0
 FileName.Position = UDim2.new(0.028, 0, 0.625, 0)
 FileName.Size = UDim2.new(0, 200, 0, 50)
@@ -1593,7 +1593,7 @@ table.insert(text1,Directions_2)
 
 shadow_3.Name = "shadow"
 shadow_3.Parent = PluginEditor
-shadow_3.BackgroundColor3 = Color3.fromRGB(46, 46, 47)
+shadow_3.BackgroundColor3 = Color3.fromRGB(120,81,60)
 shadow_3.BorderSizePixel = 0
 shadow_3.Size = UDim2.new(0, 360, 0, 20)
 shadow_3.ZIndex = 10
@@ -1692,7 +1692,7 @@ table.insert(shade1,background_5)
 
 ChoosePart.Name = "ChoosePart"
 ChoosePart.Parent = background_5
-ChoosePart.BackgroundColor3 = Color3.fromRGB(46, 46, 47)
+ChoosePart.BackgroundColor3 = Color3.fromRGB(120,81,60)
 ChoosePart.BorderSizePixel = 0
 ChoosePart.Position = UDim2.new(0, 100, 0, 55)
 ChoosePart.Size = UDim2.new(0, 75, 0, 30)
@@ -1706,7 +1706,7 @@ table.insert(text1,ChoosePart)
 
 CopyPath.Name = "CopyPath"
 CopyPath.Parent = background_5
-CopyPath.BackgroundColor3 = Color3.fromRGB(46, 46, 47)
+CopyPath.BackgroundColor3 = Color3.fromRGB(120,81,60)
 CopyPath.BorderSizePixel = 0
 CopyPath.Position = UDim2.new(0, 185, 0, 55)
 CopyPath.Size = UDim2.new(0, 75, 0, 30)
@@ -1751,7 +1751,7 @@ table.insert(text1,Path)
 
 shadow_4.Name = "shadow"
 shadow_4.Parent = ToPartFrame
-shadow_4.BackgroundColor3 = Color3.fromRGB(46, 46, 47)
+shadow_4.BackgroundColor3 = Color3.fromRGB(120,81,60)
 shadow_4.BorderSizePixel = 0
 shadow_4.Size = UDim2.new(0, 360, 0, 20)
 shadow_4.ZIndex = 10
@@ -2941,7 +2941,7 @@ reference = (function()
 end)()
 
 currentShade1 = Color3.fromRGB(120, 81, 60)
-currentShade2 = Color3.fromRGB(46, 46, 47)
+currentShade2 = Color3.fromRGB(120,81,60)
 currentShade3 = Color3.fromRGB(78, 78, 79)
 currentText1 = Color3.new(1, 1, 1)
 currentText2 = Color3.new(0, 0, 0)
@@ -3067,7 +3067,7 @@ function saves()
 
 				shadow.Name = "shadow"
 				shadow.Parent = FileError
-				shadow.BackgroundColor3 = Color3.fromRGB(46, 46, 47)
+				shadow.BackgroundColor3 = Color3.fromRGB(120,81,60)
 				shadow.BorderSizePixel = 0
 				shadow.Size = UDim2.new(0, 360, 0, 20)
 				shadow.ZIndex = 10
@@ -3848,7 +3848,7 @@ ColorsButton.MouseButton1Click:Connect(function()
 		end
 		Npicker.Default = function(self)
 			updateColors(Color3.fromRGB(120, 81, 60),shade1)
-			updateColors(Color3.fromRGB(46, 46, 47),shade2)
+			updateColors(Color3.fromRGB(120,81,60),shade2)
 			updateColors(Color3.fromRGB(78, 78, 79),shade3)
 			updateColors(Color3.new(1, 1, 1),text1)
 			updateColors(Color3.new(0, 0, 0),text2)
