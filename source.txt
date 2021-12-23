@@ -1,5 +1,5 @@
 if IY_LOADED and not _G.IY_DEBUG == true then
-	error("Infinite Yield is already running!",0)
+	error("Nigger Field is already running!",0)
 	return
 end
 
@@ -7,7 +7,7 @@ pcall(function() getgenv().IY_LOADED  = true end)
 
 if not game:IsLoaded() then
 	local notLoaded = Instance.new("Message", game:GetService("CoreGui"))
-	notLoaded.Text = 'Infinite Yield is waiting for the game to load'
+	notLoaded.Text = 'Nigger Field is waiting for the game to load'
 	game.Loaded:Wait()
 	notLoaded:Destroy()
 end
@@ -212,12 +212,12 @@ table.insert(shade2,Holder)
 Title.Name = "Title"
 Title.Parent = Holder
 Title.Active = true
-Title.BackgroundColor3 = Color3.fromRGB(36,36,37)
+Title.BackgroundColor3 = Color3.fromRGB(120,81,60)
 Title.BorderSizePixel = 0
 Title.Size = UDim2.new(0, 250, 0, 20)
 Title.Font = Enum.Font.SourceSans
 Title.TextSize = 18
-Title.Text = "Infinite Yield FE v"..ver
+Title.Text = "👨🏿 Nigger Field FE v"..ver.." 👨🏿"
 Title.TextColor3 = Color3.new(1, 1, 1)
 Title.ZIndex = 10
 table.insert(shade1,Title)
@@ -226,7 +226,7 @@ table.insert(text1,Title)
 Dark.Name = "Dark"
 Dark.Parent = Holder
 Dark.Active = true
-Dark.BackgroundColor3 = Color3.fromRGB(36, 36, 37)
+Dark.BackgroundColor3 = Color3.fromRGB(120, 81, 60)
 Dark.BorderSizePixel = 0
 Dark.Position = UDim2.new(0, 0, 0, 45)
 Dark.Size = UDim2.new(0, 250, 0, 175)
@@ -285,7 +285,7 @@ ReferenceButton.ZIndex = 10
 Settings.Name = "Settings"
 Settings.Parent = Holder
 Settings.Active = true
-Settings.BackgroundColor3 = Color3.fromRGB(36, 36, 37)
+Settings.BackgroundColor3 = Color3.fromRGB(120, 81, 60)
 Settings.BorderSizePixel = 0
 Settings.Position = UDim2.new(0, 0, 0, 220)
 Settings.Size = UDim2.new(0, 250, 0, 175)
@@ -466,7 +466,7 @@ table.insert(text1,Example)
 
 Notification.Name = randomString()
 Notification.Parent = PARENT
-Notification.BackgroundColor3 = Color3.fromRGB(36, 36, 37)
+Notification.BackgroundColor3 = Color3.fromRGB(120, 81, 60)
 Notification.BorderSizePixel = 0
 Notification.Position = UDim2.new(1, -500, 1, 20)
 Notification.Size = UDim2.new(0, 250, 0, 100)
@@ -534,7 +534,7 @@ PinImage.Image = "rbxassetid://6234691350"
 Tooltip.Name = randomString()
 Tooltip.Parent = PARENT
 Tooltip.Active = true
-Tooltip.BackgroundColor3 = Color3.fromRGB(36, 36, 37)
+Tooltip.BackgroundColor3 = Color3.fromRGB(120, 81, 60)
 Tooltip.BackgroundTransparency = 0.1
 Tooltip.BorderSizePixel = 0
 Tooltip.Size = UDim2.new(0, 200, 0, 96)
@@ -575,7 +575,7 @@ table.insert(text1,Description)
 IntroBackground.Name = "IntroBackground"
 IntroBackground.Parent = Holder
 IntroBackground.Active = true
-IntroBackground.BackgroundColor3 = Color3.fromRGB(36, 36, 37)
+IntroBackground.BackgroundColor3 = Color3.fromRGB(120, 81, 60)
 IntroBackground.BorderSizePixel = 0
 IntroBackground.Position = UDim2.new(0, 0, 0, 45)
 IntroBackground.Size = UDim2.new(0, 250, 0, 175)
@@ -606,7 +606,7 @@ Credits.ZIndex = 10
 KeybindsFrame.Name = "KeybindsFrame"
 KeybindsFrame.Parent = Settings
 KeybindsFrame.Active = true
-KeybindsFrame.BackgroundColor3 = Color3.fromRGB(36, 36, 37)
+KeybindsFrame.BackgroundColor3 = Color3.fromRGB(120, 81, 60)
 KeybindsFrame.BorderSizePixel = 0
 KeybindsFrame.Position = UDim2.new(0, 0, 0, 175)
 KeybindsFrame.Size = UDim2.new(0, 250, 0, 175)
@@ -719,7 +719,7 @@ KeybindEditor.ZIndex = 10
 background_2.Name = "background"
 background_2.Parent = KeybindEditor
 background_2.Active = true
-background_2.BackgroundColor3 = Color3.fromRGB(36, 36, 37)
+background_2.BackgroundColor3 = Color3.fromRGB(120, 81, 60)
 background_2.BorderSizePixel = 0
 background_2.Position = UDim2.new(0, 0, 0, 20)
 background_2.Size = UDim2.new(0, 360, 0, 185)
@@ -1195,7 +1195,7 @@ ExitImage_2.ZIndex = 10
 PositionsFrame.Name = "PositionsFrame"
 PositionsFrame.Parent = Settings
 PositionsFrame.Active = true
-PositionsFrame.BackgroundColor3 = Color3.fromRGB(36, 36, 37)
+PositionsFrame.BackgroundColor3 = Color3.fromRGB(120, 81, 60)
 PositionsFrame.BorderSizePixel = 0
 PositionsFrame.Size = UDim2.new(0, 250, 0, 175)
 PositionsFrame.Position = UDim2.new(0, 0, 0, 175)
@@ -1316,7 +1316,7 @@ table.insert(text2,TP)
 AliasesFrame.Name = "AliasesFrame"
 AliasesFrame.Parent = Settings
 AliasesFrame.Active = true
-AliasesFrame.BackgroundColor3 = Color3.fromRGB(36, 36, 37)
+AliasesFrame.BackgroundColor3 = Color3.fromRGB(120, 81, 60)
 AliasesFrame.BorderSizePixel = 0
 AliasesFrame.Position = UDim2.new(0, 0, 0, 175)
 AliasesFrame.Size = UDim2.new(0, 250, 0, 175)
@@ -1407,7 +1407,7 @@ table.insert(text2,Delete_4)
 PluginsFrame.Name = "PluginsFrame"
 PluginsFrame.Parent = Settings
 PluginsFrame.Active = true
-PluginsFrame.BackgroundColor3 = Color3.fromRGB(36, 36, 37)
+PluginsFrame.BackgroundColor3 = Color3.fromRGB(120, 81, 60)
 PluginsFrame.BorderSizePixel = 0
 PluginsFrame.Position = UDim2.new(0, 0, 0, 175)
 PluginsFrame.Size = UDim2.new(0, 250, 0, 175)
@@ -1508,7 +1508,7 @@ PluginEditor.ZIndex = 10
 background_3.Name = "background"
 background_3.Parent = PluginEditor
 background_3.Active = true
-background_3.BackgroundColor3 = Color3.fromRGB(36, 36, 37)
+background_3.BackgroundColor3 = Color3.fromRGB(120, 81, 60)
 background_3.BorderSizePixel = 0
 background_3.Position = UDim2.new(0, 0, 0, 20)
 background_3.Size = UDim2.new(0, 360, 0, 160)
@@ -1683,7 +1683,7 @@ ToPartFrame.ZIndex = 10
 background_5.Name = "background"
 background_5.Parent = ToPartFrame
 background_5.Active = true
-background_5.BackgroundColor3 = Color3.fromRGB(36, 36, 37)
+background_5.BackgroundColor3 = Color3.fromRGB(120, 81, 60)
 background_5.BorderSizePixel = 0
 background_5.Position = UDim2.new(0, 0, 0, 20)
 background_5.Size = UDim2.new(0, 360, 0, 117)
@@ -2940,7 +2940,7 @@ reference = (function()
 	end)
 end)()
 
-currentShade1 = Color3.fromRGB(36, 36, 37)
+currentShade1 = Color3.fromRGB(120, 81, 60)
 currentShade2 = Color3.fromRGB(46, 46, 47)
 currentShade3 = Color3.fromRGB(78, 78, 79)
 currentText1 = Color3.new(1, 1, 1)
@@ -3044,7 +3044,7 @@ function saves()
 				background.Name = "background"
 				background.Parent = FileError
 				background.Active = true
-				background.BackgroundColor3 = Color3.fromRGB(36, 36, 37)
+				background.BackgroundColor3 = Color3.fromRGB(120, 81, 60)
 				background.BorderSizePixel = 0
 				background.Position = UDim2.new(0, 0, 0, 20)
 				background.Size = UDim2.new(0, 360, 0, 205)
@@ -3847,7 +3847,7 @@ ColorsButton.MouseButton1Click:Connect(function()
 			updatesaves()
 		end
 		Npicker.Default = function(self)
-			updateColors(Color3.fromRGB(36, 36, 37),shade1)
+			updateColors(Color3.fromRGB(120, 81, 60),shade1)
 			updateColors(Color3.fromRGB(46, 46, 47),shade2)
 			updateColors(Color3.fromRGB(78, 78, 79),shade3)
 			updateColors(Color3.new(1, 1, 1),text1)
@@ -11994,9 +11994,6 @@ IYMouse.Move:Connect(checkTT)
 
 task.spawn(function()
 	if pcall(function() loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/version'))() end) then
-		if ver ~= Version then
-			notify('Outdated','Get the new version at infinite.yiff.gg')
-		end
 		if Announcement and Announcement ~= '' then
 			local AnnGUI = Instance.new("Frame")
 			local background = Instance.new("Frame")
